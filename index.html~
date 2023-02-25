@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<head>
+    <title>Paul's Portfolio Page</title>
+    <link rel="stylesheet" href="./styles/index-styles.css">
+</head>
+<header>
+  <h1>Paul Smith</h1>
+  <nav>
+    <li><a href="#">About Me</a></li>
+  </nav>
+</header>
+<body>
+    <h1>Codecademy Projects</h1>
+    <a href="./Codecademy/website-style-guide.html">Website style guide project</a>
+    <a href="./Codecademy/tea-cozy.html">Tea Website Project</a>
+</body>
+<footer>
+  <p>Hello Tester</p>
+</footer>

@@ -1,0 +1,82 @@
+* {
+    border: 1px solid red;
+}
+html {
+    background-color:#FAFFFF;
+    padding:0;
+    margin:0;
+}
+
+body {
+    padding-top:7em;
+    margin:0;
+}
+
+header {
+    width:100%;
+    height:5em;
+    position:absolute;
+    top:0;
+    margin-top:0;
+    display:flex;
+    background-color:#222222;
+    border-bottom:1px solid #DDD;
+    box-shadow: -5 -5 #111;
+}
+
+header nav {
+    display:flex;
+    flex-direction:row;
+}
+
+#aboutMe {
+    display: grid;
+    grid-template-columns: 70% 1fr;
+    grid-template-rows: repeat(3, auto);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+
+
+    padding-top:1em;
+}
+
+.blurb {
+    margin:0;
+    grid-area: 1/1/3/2;
+}
+
+.blurb h1 {
+    font-size:2rem;
+    margin:0;
+}
+
+.blurb p {
+    margin:0;
+}
+
+.bio {
+    grid-area: 3/1/4/3;
+    padding:0;
+}
+
+.bio p {
+    margin:0;
+}
+
+.portrait {
+    grid-area: 1/2/3/3;
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+    box-shadow:-2px -5px 5px #111;
+}
+
+.portrait img {
+    width: 100%;
+    height: auto;
+    margin-top: -25px;
+}
+
+
