@@ -7,33 +7,52 @@
 <header>
 <a href="#default" class="logo">Paul Smith</a>
   <nav class="header-right">
-    <a class="active" href="#home">About Me</a>
-    <a href="#contact">Projects</a>
-    <a href="#about">Contact</a>
+    <a class="active" href="#aboutMe">About Me</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
   </nav>
 </header>
-
  
 <body>
-  <article class="card">
-    <div class="blurb">
-      <h1>About me</h1>
-      <p>Hi I am Paul, an aspiring software developer, with several years of amateur development experience.</p>
-    </div>
-    
+  <article id="aboutMe"> <!-- Bio article element-->
+    <h1>About me</h1>
     <div class="portrait">
       <img src="./Media/paul_headshot.JPG" id="headshot">
     </div>
     <div class="bio">
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Interdum velit euismod in pellentesque massa placerat duis ultricies lacus. Penatibus et magnis dis parturient. Scelerisque fermentum dui faucibus in ornare quam viverra orci sagittis. Urna duis convallis convallis tellus id interdum velit. Scelerisque mauris pellentesque pulvinar pellentesque habitant. Erat imperdiet sed euismod nisi porta. Neque viverra justo nec ultrices dui sapien eget mi. Magna etiam tempor orci eu lobortis. Auctor eu augue ut lectus arcu bibendum at varius vel. Sed velit dignissim sodales ut. Bibendum at varius vel pharetra vel. Risus viverra adipiscing at in tellus integer. Lacus laoreet non curabitur gravida arcu. Penatibus et magnis dis parturient montes nascetur ridiculus mus mauris. Aliquam ut porttitor leo a diam sollicitudin tempor id. Hac habitasse platea dictumst quisque sagittis purus. Odio ut sem nulla pharetra diam. Vitae suscipit tellus mauris a diam. Ac tincidunt vitae semper quis lectus nulla at volutpat.</p>
-	<br>
-	<p>Fermentum iaculis eu non diam. Lectus sit amet est placerat in egestas erat imperdiet. Viverra nam libero justo laoreet sit amet cursus. Duis convallis convallis tellus id interdum. Nunc scelerisque viverra mauris in. Id diam vel quam elementum. Magna sit amet purus gravida quis blandit. Quisque egestas diam in arcu cursus euismod. Risus feugiat in ante metus dictum. Duis tristique sollicitudin nibh sit. Commodo quis imperdiet massa tincidunt nunc pulvinar. Tempus urna et pharetra pharetra massa massa ultricies mi. Scelerisque felis imperdiet proin fermentum leo vel orci porta. Eget felis eget nunc lobortis mattis aliquam faucibus purus. Parturient montes nascetur ridiculus mus mauris.</p>
+      <p>
+	Hi I am Paul, an aspiring software developer.
+      </p>
+      <p>
+	I have been coding for the better part of 6 years now, starting in college. I have always been fascinated by video games and have dreamed of making them. However my coding journey has veered to the more practical as I started learning the basics. An intro to Java class in college was my first real exposure to programming, but as it was not my major did not go further. I set programming down for about a year and then started to watch YouTube tutorials on Python, and more specifically the PyGame library. I spent a few years making small games and programs with them before starting my biggest project, an engine using PyGame that would streamline the process. I used knowledge I had gained from those YouTube tutorials as well as from devlogs posted by people making games using more common tools like Unity, Godot, and Unreal. It currently stands as a functional library but I still want to make changes and improvements.
+      </p>
+      <p>
+	As I advanced further with my skills I wanted to find more formal instruction, and found Codecademy. For the last year and change I have been working through their courses, learning new skills and trying to grow as a developer. I decided I would take the full stack web development course as a new marketable skill to learn. I have been working through it slowly but surely over the last year. I have taken a few detours to take courses on other topics that interest me, such as advanced Python, Flask, Java, C++, and more. I always am interested in learning more and expanding my skills so that I can figure out new ways to solve problems.
+      </p>
     </div>
   </article>
-  <article class="card">
-    <h1>Codecademy Projects</h1>
-    <a href="./Codecademy/website-style-guide.html">Website style guide project</a>
-    <a href="./Codecademy/tea-cozy.html">Tea Website Project</a>
+  <article id="projects">
+    <h1>Projects</h1>
+    <div class="cards">
+      <a href="./Codecademy/website-style-guide.html" class="card">
+	<div>
+	  <img src="./Media/Style-Guide-Thumbnail.jpg" alt="Style Guide" style="width:100%; height:auto;">
+	  <div class="container">
+	    <h4><b>Style guide project</b></h4>
+	    <p>Basic CSS project</p>
+	  </div>
+	</div>
+      </a>
+      <a href="./Codecademy/tea-cozy.html" class="card">
+	<div>
+	  <img src="./Media/Tea-Site-Thumbnail.jpg" alt="Tea Website" style="width:100%; height:auto;">
+	  <div class="container">
+	    <h4><b>Tea website project</b></h4>
+	    <p>Website project</p>
+	  </div>
+	</div>
+      </a>
+    </div> 
   </article>
 </body>
 <footer>
