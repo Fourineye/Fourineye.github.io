@@ -114,7 +114,6 @@ article {
 .portrait img {
     width: 100%;
     height: auto;
-    z-level:0;
     margin-top: -25px;
 }
 
@@ -185,4 +184,40 @@ article {
         max-width: calc(25% - 1em);
     }
 }
+/* Contact Style------------------------------------------------------------------------*/
+#contact a {
+  outline: none;
+  text-decoration: none;
+  /*padding: 2px 1px 0;*/
+}
 
+#contact a:link {
+  color: #000;
+}
+
+#contact a:visited {
+  color: #006;
+}
+
+#contact a:focus {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+#contact a:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+#contact a:active {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  color: #006;
+}
+
+/* Footer Style------------------------------------------------------------------------*/
+footer {
+  color: #77490e;
+}
+
+footer a {
+  font-size: small;
+  color: #77490e;
+}
